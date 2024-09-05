@@ -6,7 +6,9 @@ import { lusitana } from './ui/fonts';
 import Image from 'next/image';
 
 
-export default function Page() {
+
+export default  function Page() {
+
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className={styles.shape} />
@@ -51,7 +53,7 @@ export default function Page() {
         />
         <p
           className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
-        >Mencon</p>
+        ></p>
       </div>
     </main>
   );
